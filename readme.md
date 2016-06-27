@@ -1,19 +1,26 @@
-### Parse Git Log
+### Parse Git Log for Number of Commits and Emails
 
-This project shows the total number of git commits per contributer email. Simply point this app to any git repo by updating the following path variable in `~~~`.
+This project allows the user to see the total number of git commits per contributer email.
 
-```
-CONFIG
-```
-
-Execute this app by using the following command from the terminal.
+To run this script, simply use the following command in Terminal from the directory of a git repo:
 
 ```
-COMMAND
+bash <(curl -s http://link-to-script/script.sh)
 ```
 
-You will then be provided results from your target git repo. The results will display a list of emails and the number of correpsonding commits. Here's an example output block:
+Alternatively, you can specify the directory of a git repo:
 
 ```
-OUTPUT
+bash <(curl -s http://link-to-script/script.sh) /path/to/repo
+```
+
+Here's an example of the output after running the script.
+
+```bash
+Here are the email addresses and corresponding number of commits:
+-----------------------------------------------------------------
+  15 lebron.james@champion.com
+   9 steph.curry@next-year.com
+   4 michael.j@bestofalltime.net
+-----------------------------------------------------------------
 ```
