@@ -1,4 +1,4 @@
-### Parse Git Log for Number of Commits and Emails
+### Parse Git Log for Number of Commits and Related Emails
 
 This project allows the user to see the total number of git commits per contributer email.
 
